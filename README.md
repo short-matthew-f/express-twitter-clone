@@ -28,8 +28,14 @@ Next up we should allow:
 1. Deleting a tweet
 2. Editing a tweet
 
-# Phase 4
+## Phase 4
 
 Lastly we would like to:
 
 1.  Viewing all tweets by author name
+
+## Phase 5 - Surprise!
+
+Finally we would like to:
+
+1. Use sessions to set an author, and allow the app to use that persistent author rather than asking your name for each new tweet.
