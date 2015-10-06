@@ -1,0 +1,21 @@
+/* Application wide style goes */
+
+* {
+  font: inherit;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background: floralwhite;
+}
+
+input[type='text'] {
+  width: 75%;
+  height: 2rem;
+  padding: 0.5rem;
+  line-height: 2rem;
+}

@@ -1,0 +1,7 @@
+<a href="/tweets">Back to tweets</a>
+
+<h1>Tweets by: <%= author %></h1>
+
+<% tweets.forEach(function (tweet) { %>
+  <h3><%= tweet.content %></h3>
+<% }) %>

@@ -1,0 +1,18 @@
+<a href="/tweets/new">Make a new tweet!</a>
+
+<% tweets.forEach(function (tweet) { %>
+  <div class="tweet">
+    <p>
+      <%= tweet.content %> ---
+      <a href="/authors/<%= tweet.author %>">
+        <%= tweet.author %>
+      </a>
+      <a href="/tweets/<%= tweet._id %>/edit">[ edit ]</a>
+      <form class="delete-button"
+            action="/tweets/<%= tweet._id %>?_method=DELETE"
+            method="post">
+        <input type="submit" value="Delete the Tweet">
+      </form>
+    </p>
+  </div>
+<% }) %>

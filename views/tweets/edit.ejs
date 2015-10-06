@@ -1,0 +1,11 @@
+<form action="/tweets/<%= tweet._id %>?_method=PATCH" method="post">
+  <input type="text"
+         name="tweet[author]"
+         placeholder="author of tweet, e.g. @shorty"
+         value="<%= tweet.author %>"><br/>
+  <input type="text"
+         name="tweet[content]"
+         placeholder="content of tweet, limit 140 characters"
+         value="<%= tweet.content %>"><br/>
+  <input type="submit">
+</form>
